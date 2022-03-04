@@ -1,0 +1,16 @@
+query GetDocById($id: ID!) {
+  getDocById(id: $id) {
+    id
+    description
+    tags {
+      id
+      label
+      variant
+    }
+    type {
+      id
+      icon
+      label
+    }
+  }
+}

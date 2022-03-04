@@ -1,0 +1,26 @@
+mutation AddDoc(
+  $groupId: String!
+  $description: String!
+  $tagIds: [String]
+  $typeId: String
+) {
+  addDoc(
+    groupId: $groupId
+    description: $description
+    tagIds: $tagIds
+    typeId: $typeId
+  ) {
+    id
+    description
+    tags {
+      id
+      label
+      variant
+    }
+    type {
+      id
+      icon
+      label
+    }
+  }
+}

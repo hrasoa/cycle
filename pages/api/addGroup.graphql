@@ -1,0 +1,8 @@
+mutation AddGroup($boardId: String!, $icon: String!, $label: String!) {
+  addGroup(boardId: $boardId, icon: $icon, label: $label) {
+    id
+    label
+    icon
+    docIds
+  }
+}

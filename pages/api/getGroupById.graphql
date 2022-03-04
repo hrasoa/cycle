@@ -1,0 +1,8 @@
+query GetGroupById($id: ID!) {
+  getGroupById(id: $id) {
+    id
+    icon
+    label
+    docIds
+  }
+}

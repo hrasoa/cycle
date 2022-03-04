@@ -1,0 +1,8 @@
+query GetBoardById($id: ID!) {
+  getBoardById(id: $id) {
+    id
+    icon
+    label
+    groupIds
+  }
+}

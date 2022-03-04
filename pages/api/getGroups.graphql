@@ -1,0 +1,16 @@
+query GetGroups {
+  getGroups {
+    id
+    icon
+    label
+    docs {
+      id
+      description
+      tags {
+        id
+        label
+        variant
+      }
+    }
+  }
+}

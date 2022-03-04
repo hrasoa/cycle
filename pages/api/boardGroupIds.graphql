@@ -1,0 +1,4 @@
+fragment BoardGroupIds on Board {
+  id
+  groupIds
+}

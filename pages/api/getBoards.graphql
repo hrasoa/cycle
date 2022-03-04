@@ -1,0 +1,26 @@
+query GetBoards {
+  getBoards {
+    id
+    icon
+    label
+    groups {
+      id
+      icon
+      label
+      docs {
+        id
+        description
+        tags {
+          id
+          label
+          variant
+        }
+        type {
+          id
+          icon
+          label
+        }
+      }
+    }
+  }
+}

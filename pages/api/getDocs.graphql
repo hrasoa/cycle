@@ -1,0 +1,16 @@
+query GetDocs {
+  getDocs {
+    id
+    description
+    tags {
+      id
+      label
+      variant
+    }
+    type {
+      id
+      icon
+      label
+    }
+  }
+}

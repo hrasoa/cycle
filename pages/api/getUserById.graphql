@@ -1,0 +1,12 @@
+query GetUserById($id: ID!) {
+  getUserById(id: $id) {
+    id
+    name
+    avatar
+    starredBoards {
+      id
+      icon
+      label
+    }
+  }
+}

@@ -1,0 +1,7 @@
+query GetTags {
+  getTags {
+    id
+    label
+    variant
+  }
+}

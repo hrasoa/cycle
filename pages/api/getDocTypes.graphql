@@ -1,0 +1,7 @@
+query GetDocTypes {
+  getDocTypes {
+    id
+    label
+    icon
+  }
+}

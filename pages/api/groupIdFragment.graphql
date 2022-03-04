@@ -1,0 +1,3 @@
+fragment GroupIdFragment on Group {
+  id
+}
