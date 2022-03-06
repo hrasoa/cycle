@@ -30,6 +30,8 @@
     "@types/react": "17.0.36",
     "@types/styled-components": "^5.1.23",
     "@types/uuid": "^8.3.4",
+    "babel-plugin-graphql-tag": "^3.3.0",
+    "babel-plugin-import-graphql": "^2.8.1",
     "eslint": "7.32.0",
     "eslint-config-next": "12.0.4",
     "typescript": "4.5.2"
