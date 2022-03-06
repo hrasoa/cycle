@@ -3,7 +3,7 @@ import { useQuery } from '@apollo/client';
 import styled from 'styled-components';
 import { Button } from '../generics/Button';
 import * as Icons from './Icons';
-import getGroupByIdQuery from '../pages/api/getGroupById.graphql';
+import getGroupByIdQuery from '../schemas/getGroupById.graphql';
 import * as Types from '../types';
 import { Doc } from './Doc';
 import { DocForm } from './DocForm';

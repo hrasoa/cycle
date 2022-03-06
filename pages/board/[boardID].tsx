@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useQuery } from '@apollo/client';
 import type { GetServerSideProps, NextPage } from 'next';
 import { GetBoardByIdQuery, GetBoardByIdQueryVariables } from '../../types';
-import getBoardByIdQuery from '../api/getBoardById.graphql';
+import getBoardByIdQuery from '../../schemas/getBoardById.graphql';
 import { Board } from '../../components/Board';
 
 type BoardPageProps = { boardID: string };

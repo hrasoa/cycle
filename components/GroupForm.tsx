@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { useMutation } from '@apollo/client';
 import styled from 'styled-components';
-import addGroupMutation from '../pages/api/addGroup.graphql';
-import getGroupByIdQuery from '../pages/api/getGroupById.graphql';
-import boardGroupIdsFragment from '../pages/api/boardGroupIds.graphql';
+import addGroupMutation from '../schemas/addGroup.graphql';
+import getGroupByIdQuery from '../schemas/getGroupById.graphql';
+import boardGroupIdsFragment from '../schemas/boardGroupIds.graphql';
 import * as Types from '../types';
 import * as Disclosure from '../generics/Disclosure';
 import * as Icons from './Icons';

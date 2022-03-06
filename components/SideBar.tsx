@@ -2,7 +2,7 @@ import * as React from 'react';
 import Image from 'next/image';
 import styled from 'styled-components';
 import { useApolloClient, useReactiveVar } from '@apollo/client';
-import getUserByIdQuery from '../pages/api/getUserById.graphql';
+import getUserByIdQuery from '../schemas/getUserById.graphql';
 import { userId } from '../pages/api/resolvers/user';
 import cycle from '../public/cycle.svg';
 import * as Icons from './Icons';

@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { useMutation, useQuery } from '@apollo/client';
 import styled from 'styled-components';
-import getTagsQuery from '../pages/api/getTags.graphql';
-import getDocTypesQuery from '../pages/api/getDocTypes.graphql';
-import getDocByIdQuery from '../pages/api/getDocById.graphql';
-import addDocMutation from '../pages/api/addDoc.graphql';
-import groupIdFragment from '../pages/api/groupIdFragment.graphql';
+import getTagsQuery from '../schemas/getTags.graphql';
+import getDocTypesQuery from '../schemas/getDocTypes.graphql';
+import getDocByIdQuery from '../schemas/getDocById.graphql';
+import addDocMutation from '../schemas/addDoc.graphql';
+import groupIdFragment from '../schemas/groupIdFragment.graphql';
 import * as Types from '../types';
 import * as Icons from './Icons';
 import * as Disclosure from '../generics/Disclosure';

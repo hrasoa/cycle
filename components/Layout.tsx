@@ -3,7 +3,7 @@ import type { NextPage } from 'next';
 import styled from 'styled-components';
 import { useQuery } from '@apollo/client';
 import { SideBar } from '../components/SideBar';
-import getUserByIdQuery from '../pages/api/getUserById.graphql';
+import getUserByIdQuery from '../schemas/getUserById.graphql';
 import { GetUserByIdQuery, GetUserByIdQueryVariables } from '../types';
 import { userId } from '../pages/api/resolvers/user';
 
