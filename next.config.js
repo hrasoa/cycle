@@ -6,7 +6,7 @@ module.exports = {
   },
   reactStrictMode: true,
   webpack: (config, options) => {
-    console.log(config.resolve);
+    // console.log(config.resolve);
     config.module.rules.push({
       test: /\.(graphql|gql)$/,
       include: [options.dir],
