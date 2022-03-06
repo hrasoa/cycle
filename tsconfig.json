@@ -15,6 +15,7 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "files": ["graphql.d.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "schemas/*.graphql"],
   "exclude": ["node_modules"]
 }
